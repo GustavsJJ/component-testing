@@ -1,0 +1,13 @@
+.Display-container > * {
+    margin-top: 100px;
+    display: flex;
+    max-width: 800px;
+}
+
+.Display-container > * > * {
+    margin: 0 auto;
+}
+
+.Display-container > * p {
+    font-size: medium;
+}
