@@ -1,7 +1,8 @@
 .Display-container > * {
-    margin-top: 100px;
+    margin: 100px 0;
+    max-width: 1000px;
     display: flex;
-    max-width: 800px;
+    gap: 20px;
 }
 
 .Display-container > * > * {

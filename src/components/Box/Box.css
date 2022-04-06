@@ -1,0 +1,32 @@
+div.Box-component {
+     min-width: 300px;
+     min-height: 100px;
+     height: fit-content;
+     background-color: rgba(128, 128, 128, 0.5);
+     padding: 10px;
+}
+
+div.Box-component.round {
+    border-radius: 10px;
+}
+
+div.Box-component-header.header {
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+    margin-bottom: 10px;
+}
+
+div.Box-component-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+div.Box-component-header-content > *{
+    margin-bottom: 0;
+}
+
+div.Box-header-x {
+    margin-left: auto;
+    
+}

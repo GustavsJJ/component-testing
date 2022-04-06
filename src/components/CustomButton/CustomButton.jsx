@@ -1,9 +1,7 @@
-import React, { Component } from "react";
+import React from "react";
 import { Button } from "reactstrap";
 import "./CustomButton.css";
 
-export default class CustomButton extends Component {
-  render() {
-    return <Button {...this.props} />;
-  }
+export default function CustomButton(props) {
+  return <Button {...props} />;
 }
