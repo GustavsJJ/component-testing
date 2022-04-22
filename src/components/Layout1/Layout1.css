@@ -1,0 +1,64 @@
+div.Layout1-component {
+    max-width: 500px;
+    min-height: 300px;
+    height: fit-content;
+    padding: 10px;
+}
+
+div.Layout1-component.bg-white {
+    background-color: rgb(255, 255, 255);
+}
+
+div.Layout1-component.bg-gray {
+    background-color: rgb(128, 128, 128);
+}
+
+div.Layout1-component.bg-black {
+    background-color: rgb(0, 0, 0);
+}
+
+div.Layout1-component.fontColor-white {
+    color: white;
+}
+
+div.Layout1-component.fontColor-gray {
+    color: gray;
+}
+
+div.Layout1-component.fontColor-black {
+    color: black;
+}
+
+/**/
+
+div.Layout1-component > h4 {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+div.Layout1-component > div.main-chapter {
+    display: flex;
+    gap: 10px;
+}
+
+div.Layout1-component > div.main-chapter > div {
+    width: 20px;
+}
+
+div.Layout1-component > div.main-chapter > .lorem {
+    margin: 0;
+}
+
+div.Layout1-component > h5 {
+    margin: 20px;
+}
+
+div.Layout1-component > .lorem {
+    margin: 20px;
+}
+
+div.Layout1-component > div.bottom-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}

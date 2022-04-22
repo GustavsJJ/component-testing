@@ -1,0 +1,7 @@
+.SmallInput-component {
+    font-size: 20px;
+}
+
+.SmallInput-component.border-round {
+    border-radius: 10px;
+}
