@@ -1,13 +1,14 @@
 import React from "react";
+import { withTranslation } from "react-i18next";
 import { Box, Lorem } from "../../components";
 
-export default function DisplayBoxHeader() {
+function DisplayBoxHeader({ t }) {
   const header = <p>Header</p>;
 
   return (
     <div>
       <Box>
-        <p style={{ textAlign: "left", fontWeight: "bold" }}>Header</p>
+        <p style={{ textAlign: "left", fontWeight: "bold" }}>{t("HEADER")}</p>
         <Lorem />
       </Box>
       <Box header={header}>
@@ -16,3 +17,5 @@ export default function DisplayBoxHeader() {
     </div>
   );
 }
+
+export default withTranslation()(DisplayBoxHeader);

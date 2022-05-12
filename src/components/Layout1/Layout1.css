@@ -3,30 +3,7 @@ div.Layout1-component {
     min-height: 300px;
     height: fit-content;
     padding: 10px;
-}
-
-div.Layout1-component.bg-white {
-    background-color: rgb(255, 255, 255);
-}
-
-div.Layout1-component.bg-gray {
-    background-color: rgb(128, 128, 128);
-}
-
-div.Layout1-component.bg-black {
-    background-color: rgb(0, 0, 0);
-}
-
-div.Layout1-component.fontColor-white {
-    color: white;
-}
-
-div.Layout1-component.fontColor-gray {
-    color: gray;
-}
-
-div.Layout1-component.fontColor-black {
-    color: black;
+    border: 1px solid black;
 }
 
 /**/

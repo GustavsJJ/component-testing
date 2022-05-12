@@ -6,10 +6,6 @@ div.Box-component {
      padding: 10px;
 }
 
-div.Box-component.round {
-    border-radius: 10px;
-}
-
 div.Box-component-header.header {
     padding-bottom: 10px;
     border-bottom: 1px solid white;

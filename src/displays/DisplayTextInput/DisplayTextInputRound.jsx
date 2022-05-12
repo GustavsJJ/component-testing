@@ -1,17 +1,24 @@
 import React from "react";
+import { withTranslation } from "react-i18next";
 import { TextInput } from "../../components";
 
-export default function DisplayTextInputRound() {
+function DisplayTextInputRound({ t }) {
   return (
     <div>
       <div>
-        <p style={{ textAlign: "left", marginBottom: 10 }}>Enter text here:</p>
-        <TextInput size="20" />
+        <p style={{ textAlign: "left", marginBottom: 10 }}>{t("ENTER_TEXT")}</p>
+        <TextInput size="20" style={{ borderRadius: 0 }} />
       </div>
       <div>
-        <p style={{ textAlign: "left", marginBottom: 10 }}>Enter text here:</p>
-        <TextInput round size="20" />
+        <p style={{ textAlign: "left", marginBottom: 10 }}>{t("ENTER_TEXT")}</p>
+        <TextInput size="20" style={{ borderRadius: 10 }} />
+      </div>
+      <div>
+        <p style={{ textAlign: "left", marginBottom: 10 }}>{t("ENTER_TEXT")}</p>
+        <TextInput round size="20" style={{ borderRadius: 20 }} />
       </div>
     </div>
   );
 }
+
+export default withTranslation()(DisplayTextInputRound);

@@ -1,7 +1,6 @@
 .SmallInput-component {
-    font-size: 20px;
-}
-
-.SmallInput-component.border-round {
-    border-radius: 10px;
+    padding: 5px;
+    font-size: 16px;
+    width: 234px;
+    border: 1px solid black
 }

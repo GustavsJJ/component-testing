@@ -1,14 +1,15 @@
 import React from "react";
+import { withTranslation } from "react-i18next";
 import { Box, CustomButton, Lorem } from "../../components";
 
-export default function DisplayBoxClose() {
-  const header = <p>Header</p>;
+function DisplayBoxClose({ t }) {
+  const header = <p>{t("HEADER")}</p>;
 
   return (
     <div>
       <Box header={header}>
         <Lorem />
-        <CustomButton>Close</CustomButton>
+        <CustomButton>{t("CLOSE")}</CustomButton>
       </Box>
       <Box header={header} x>
         <Lorem />
@@ -16,3 +17,5 @@ export default function DisplayBoxClose() {
     </div>
   );
 }
+
+export default withTranslation()(DisplayBoxClose);

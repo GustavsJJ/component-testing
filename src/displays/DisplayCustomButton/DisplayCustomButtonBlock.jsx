@@ -1,17 +1,20 @@
 import React from "react";
+import { withTranslation } from "react-i18next";
 import { CustomButton, Lorem } from "../../components";
 
-export default function DisplayCustomButtonBlock() {
+function DisplayCustomButtonBlock({ t }) {
   return (
     <div>
       <div>
         <Lorem />
-        <CustomButton>Press me</CustomButton>
+        <CustomButton>{t("READ_MORE")}</CustomButton>
       </div>
       <div>
         <Lorem />
-        <CustomButton block>Press me</CustomButton>
+        <CustomButton block>{t("READ_MORE")}</CustomButton>
       </div>
     </div>
   );
 }
+
+export default withTranslation()(DisplayCustomButtonBlock);

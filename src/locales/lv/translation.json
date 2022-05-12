@@ -1,0 +1,16 @@
+{
+  "CHOOSE_AN_OPTION": "Izvēlieties vienu no opcijām:",
+  "BUTTON": "Poga {{number}}",
+  "READ_MORE": "Lasīt vairāk",
+  "CLOSE": "Aizvērt",
+  "ENTER_TEXT": "Ievadiet tekstu:",
+  "CONTINUE": "Turpināt",
+  "CANCEL": "Atcelt",
+  "SELECT": "Izvēlēties...",
+  "OPTION": "Opcija {{number}}",
+  "LONG_OPTION": "Opcija {{number}} ar garu tekstu...",
+  "ENTER_PHONE_NUM": "Ievadiet telefona numuru:",
+  "PHONE_NUM_PLACEHOLDER": "+371 12345678",
+  "HEADER": "Virsraksts",
+  "ENTER_TEXT_PLACEHOLDER": "Ievadiet tekstu šeit..."
+}

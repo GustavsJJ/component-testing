@@ -4,7 +4,7 @@ import "./Box.css";
 
 export default function Box(props) {
   return (
-    <div className={`Box-component ${props.round && "round"}`}>
+    <div className={`Box-component`} {...props}>
       {(props.header || props.x) && (
         <div className={`Box-component-header ${props.header && "header"}`}>
           <div className="Box-component-header-content">{props.header}</div>
