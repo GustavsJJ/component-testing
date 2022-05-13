@@ -15,7 +15,7 @@ function DisplayTextInputRound({ t }) {
       </div>
       <div>
         <p style={{ textAlign: "left", marginBottom: 10 }}>{t("ENTER_TEXT")}</p>
-        <TextInput round size="20" style={{ borderRadius: 20 }} />
+        <TextInput size="20" style={{ borderRadius: 20 }} />
       </div>
     </div>
   );

@@ -15,8 +15,7 @@ function Layout1(props) {
   return (
     <div
       className={`Layout1-component`}
-      {...props}
-      style={{ backgroundColor: bgColor, color: fontColor }}
+      style={{ backgroundColor: bgColor, color: fontColor, ...props?.style }}
     >
       <h4>{t("HEADER")}</h4>
       <div className="main-chapter" style={{ marginRight: 20 }}>
