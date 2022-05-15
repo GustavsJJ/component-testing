@@ -2,14 +2,14 @@ import React from "react";
 import { withTranslation } from "react-i18next";
 import { CustomButton, Lorem } from "../../components";
 
-function DisplayCustomButtonBlock({ t }) {
+function DisplayCustomButtonBlockLarge({ t }) {
   return (
     <div>
-      <div style={{ width: 350 }}>
+      <div>
         <Lorem />
         <CustomButton>{t("READ_MORE")}</CustomButton>
       </div>
-      <div style={{ width: 350 }}>
+      <div>
         <Lorem />
         <CustomButton block>{t("READ_MORE")}</CustomButton>
       </div>
@@ -17,4 +17,4 @@ function DisplayCustomButtonBlock({ t }) {
   );
 }
 
-export default withTranslation()(DisplayCustomButtonBlock);
+export default withTranslation()(DisplayCustomButtonBlockLarge);

@@ -16,6 +16,7 @@ import {
   DisplayDropdownRound,
   DisplayTextInputBorder,
   DisplayTextInputSize,
+  DisplayCustomButtonBlockLarge,
 } from "../../displays";
 import "./Display.css";
 
@@ -24,15 +25,17 @@ export default function Display(props) {
 
   return (
     <div className="Display-container">
-      <div style={{ display: "block" }}>
+      <div style={{ display: "flex", flexDirection: "column" }}>
         <h4>Displays all of the current components</h4>
-        <div style={{ fontSize: 14, textAlign: "center" }}>
+        <div style={{ fontSize: 16, display: "flex", alignItems: "self-end" }}>
           <Input
             type="checkbox"
             onChange={changeTheme}
-            style={{ marginRight: 10 }}
+            style={{ marginRight: 10, padding: 10 }}
           />
-          <Label check>Dark theme</Label>
+          <Label check style={{ margin: 0 }}>
+            Dark theme
+          </Label>
         </div>
       </div>
 
@@ -41,6 +44,7 @@ export default function Display(props) {
       <DisplayCutomButtonOutline />
       <DisplayCustomButtonSize />
       <DisplayCustomButtonBlock />
+      <DisplayCustomButtonBlockLarge />
       <DisplayBoxShape />
       {/* <DisplayBoxHeader /> */}
       <DisplayBoxClose />
